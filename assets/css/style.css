@@ -295,3 +295,7 @@ h2 {
     font-size: 20px;
 }
   }
+
+  h3{
+    background-image: linear-gradient(to right, rgb(255, 246, 235), rgb(255, 223, 185));
+  }
