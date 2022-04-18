@@ -1,0 +1,193 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuNavegable  {
+    background-color: rgb(255, 246, 235);
+    height: 120px;
+    display: flex;
+    
+    /* float: inline-start; */
+
+
+}
+
+.logoGula {
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.menuNavegable__opciones {
+
+    position: absolute;
+    right: 70px;
+    top: 12px;    
+}
+.menuNavegable__opciones__lista{
+    margin: 20px;
+    padding: 15px;
+    border: solid 2px rgb(118, 224, 234);
+    border-radius: 50px;
+    text-align: center;
+    height: 20px;
+    display:inline;
+}
+
+
+a{
+    color:rgb(255, 11, 174);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+ul{
+    display: flex;
+    
+}
+
+li {
+    margin: 20px;
+    padding: 15px;
+    list-style: none;
+
+}
+
+h1 {
+    padding-top: 50px;
+    color:rgb(255, 11, 174);
+    text-align: center;
+    height: 80px; 
+    font-family:  'Merriweather', serif; 
+    font-size: 60px;
+
+}
+h2 { color:rgb(255, 11, 174);
+    text-align: center;  
+}
+
+.subtitulo {
+
+    color : rgb(255, 11, 174);
+    background-color: rgb(255, 246, 235) ;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 40px;
+    text-align: center;
+    float: center;
+}
+
+.pie  {
+    background-color:  rgb(255, 246, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.pie__whatsapp {
+display: block;
+}
+
+.pie__redesSociales {
+    align-items: flex-end;
+}
+
+/* .imagenesIndex  {
+    margin: 50px;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+
+.imagenesIndex
+ {
+    margin-left: 160px;
+    width: 1200px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 1.3fr;
+    grid-template-rows: 1fr 0.7fr 1.3fr;
+    gap: 5px 15px;
+    grid-template-areas:
+      "fotoGula1 fotoGula1 fotoGula2"
+      "fotoGula1 fotoGula1 fotoGula2"
+      "fotoGula3 fotoGula3 fotoGula4";
+  }
+  .fotoGula1 { grid-area: fotoGula1; width: 100%;}
+  .fotoGula2 { grid-area: fotoGula2; width: 100%;}
+  .fotoGula3 { grid-area: fotoGula3; width: 100%;}
+  .fotoGula4 { grid-area: fotoGula4; width: 100%;}
+
+p{
+    color:rgb(255, 11, 174);
+    background-color:#FFFCF8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px;
+    margin-top: auto;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.conteiner__productos {
+/* { display: flex;
+    flex-direction: row; */
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1.4fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      "conteiner__productos__titulo conteiner__productos__titulo conteiner__productos__titulo conteiner__productos__titulo"
+      "conteiner__productos__imagen conteiner__productos__imagen conteiner__productos__descripcion conteiner__productos__descripcion"
+      "conteiner__productos__imagen conteiner__productos__imagen conteiner__productos__lista conteiner__productos__lista";
+  }
+  .conteiner__productos__titulo{
+grid-area: conteiner__productos__titulo;
+  }
+
+  .conteiner__productos__imagen{
+      margin-left: 40px;
+      grid-area: conteiner__productos__imagen;
+      width: 80%;
+      align-items: center;
+      justify-items: center;
+
+
+  }
+
+.conteiner__productos__descripcion {
+    /* width: 40%; height: 100px;
+    margin-top: 15px; */
+    grid-area: conteiner__productos__descripcion;
+}
+
+.conteiner__productos__lista{
+    grid-area: conteiner__productos__lista;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    column-count: 2; column-gap: 10px;
+
+}
+
+.MapaInteractivo {
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 900px)
