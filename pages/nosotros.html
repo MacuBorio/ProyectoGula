@@ -10,12 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/images/GGulaFavIcon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <title>Gula - Nosotros</title>
 </head>
 
 <body>
     <header>
         <nav class="menuNavegable">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>                
+            </label>
             <a class="logoGula" href="../index.html">
                 <img src="../assets/images/Gula Logo PNG.png" alt="Gula Logo" height="100px">
             </a>
@@ -59,24 +64,29 @@
     </main>
 
     <footer>
-        <div class="Pie">   
-            <ul>
-                <li>
-                    <a href="https://api.whatsapp.com/send?phone=+5491162293327" target="_blank">Contactanos por WhatsApp
-                        <img src="../assets/images/whatsapp logo.png" alt="Logo WhatsApp" height="100">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/GulaCaffe" target="_blank"> Seguinos en redes sociales
-                        <img src="../assets/images/facebook-logo-esquinas-redondeadas_318-9850.webp" alt="" height="100">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/gula.cafe/" target="_blank">
-                        <img src="../assets/images/Ig logo.png" alt="" height="100">
-                    </a>
-                </li>
-            </ul>
+        <div class="pie">
+            <div class="pie__whatsapp">
+                <strong>Contactanos por WhatsApp</strong> 
+                <a class="pie__whatsapp" href="https://api.whatsapp.com/send?phone=+5491162293327" target="_blank">
+                    <img src="../assets/images/whatsapp logo.png" alt="Logo WhatsApp" height="80px">
+                </a>
+            </div>
+
+            <div class="pie__redesSociales">
+                <strong>Seguinos en redes sociales</strong>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/GulaCaffe" target="_blank">
+                            <img src="../assets/images/facebook-logo-esquinas-redondeadas_318-9850.webp" alt="" height="70px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/gula.cafe/" target="_blank">
+                            <img src="../assets/images/Ig logo.png" alt="" height="70px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 
