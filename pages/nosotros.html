@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,16 +28,6 @@
             <ul class="menuNavegable__opciones">
                 <li class="menuNavegable__opciones__lista"><a href="./nosotros.html">Nosotros</a></li>
                 <li class="menuNavegable__opciones__lista"><a href="./productos.html">Productos</a>
-
-                    <!--ESTO DE ACA ABAJO NO ESTÁ ENLAZADO-->
-                    <!-- <ul>
-                        <li><a href="">Cafetería</a> </li>
-                        <li><a href="">Café Frío</a></li>
-                        <li><a href="">Licuados y Limonadas</a></li>
-                        <li><a href="">Pastelería</a></li>
-                        <li><a href="">Tortas</a></li>
-                        <li><a href="">Bagels</a></li>
-                    </ul> -->
                 </li>
                 <li class="menuNavegable__opciones__lista"><a href="./ubicacion.html">Encontranos</a></li>
                 <li class="menuNavegable__opciones__lista"><a href="./resenias.html">Contanos tu experiencia</a></li>
@@ -54,12 +45,28 @@
                 amigos, . Nos acompañamos unos a otros en las buenas y en las otras. Nos gusta hacelos sentir como en
                 casa, por eso nos presentamos: somos Pilar, Her, Milu, Rama y Juli.
             </p>
-            <div class="contenido">
-                <img src="../assets/images/Gula Team.jpg" alt="Gula Team" height="500">
-                <img src="../assets/images/Gula team 2.jpg" alt="Gula Team 2" height="500">
-                <img src="../assets/images/Gula team 3.jpg" alt="Gula Team 3" height="500">
-                <img src="../assets/images/Gula Team 4.jpg" alt="Gula Team 4" height="500">
-            </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="width: 900px; margin-left: auto; margin-right: auto; display: block">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/images/Gula Team.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/images/Gula Team 4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/images/Gula team 3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
     </main>
 
@@ -89,7 +96,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

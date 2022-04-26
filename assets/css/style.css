@@ -74,7 +74,7 @@ li {
 }
 
 h1 {
-    padding-top: 50px;
+    padding-top: 15px;
     color:rgb(255, 11, 174);
     text-align: center;
     height: 80px; 
@@ -231,6 +231,7 @@ grid-area: conteiner__productos__titulo;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        display: block;
     
     }
 
