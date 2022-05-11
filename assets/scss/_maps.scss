@@ -1,0 +1,21 @@
+$redes: (
+
+    "Whatsapp": rgb(4, 212, 22),
+   "Instagram": rgb(255, 0, 174),
+   "Facebook": rgb(14, 42, 255),
+
+);
+
+.LogoWhatsapp {
+    color: map-get($map: $redes, $key: Whatsapp );
+};
+
+.LogoInstagram {
+    color: map-get($map: $redes, $key: Instagram);
+
+};
+
+.LogoFacebook {
+    color: map-get($map: $redes, $key: Facebook);
+
+}
