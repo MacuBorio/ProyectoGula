@@ -81,7 +81,7 @@ h1 {
     text-align: center;
     height: 80px; 
     font-family:  'Merriweather', serif; 
-    font-size: 60px;
+    font-size: 50px;
 
 }
 h2 { color:$color-font;
@@ -177,6 +177,7 @@ grid-area: conteiner__productos__titulo;
       width: 100%;
       align-items: center;
       justify-items: center;
+      border-radius: 15px;
 
 
   }

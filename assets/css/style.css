@@ -62,7 +62,7 @@ h1 {
   text-align: center;
   height: 80px;
   font-family: 'Merriweather', serif;
-  font-size: 60px; }
+  font-size: 50px; }
 
 h2 {
   color: #ff0bae;
@@ -97,7 +97,9 @@ h2 {
   grid-template-columns: 1fr 0.7fr 1.3fr;
   grid-template-rows: 1fr 0.7fr 1.3fr;
   gap: 5px 15px;
-  grid-template-areas: "fotoGula1 fotoGula1 fotoGula2" "fotoGula1 fotoGula1 fotoGula2" "fotoGula3 fotoGula3 fotoGula4"; }
+  grid-template-areas: "fotoGula1 fotoGula1 fotoGula2"
+ "fotoGula1 fotoGula1 fotoGula2"
+ "fotoGula3 fotoGula3 fotoGula4"; }
 
 .fotoGula1 {
   grid-area: fotoGula1;
@@ -137,7 +139,9 @@ p {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 0.4fr 0.9fr 2.4fr;
   gap: 10px 10px;
-  grid-template-areas: "conteiner__productos__imagen conteiner__productos__titulo conteiner__productos__titulo" "conteiner__productos__imagen conteiner__productos__descripcion conteiner__productos__descripcion" "conteiner__productos__imagen conteiner__productos__lista conteiner__productos__lista"; }
+  grid-template-areas: "conteiner__productos__imagen conteiner__productos__titulo conteiner__productos__titulo"
+ "conteiner__productos__imagen conteiner__productos__descripcion conteiner__productos__descripcion"
+ "conteiner__productos__imagen conteiner__productos__lista conteiner__productos__lista"; }
 
 .conteiner__productos__titulo {
   grid-area: conteiner__productos__titulo; }
@@ -146,7 +150,8 @@ p {
   grid-area: conteiner__productos__imagen;
   width: 100%;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+  border-radius: 15px; }
 
 .conteiner__productos__descripcion {
   grid-area: conteiner__productos__descripcion; }
@@ -160,7 +165,7 @@ p {
   column-gap: 10px; }
 
 .MapaInteractivo {
-  margin-left: 250px; }
+  margin-left: 100px; }
 
 .menuNavegable__opciones__lista:hover {
   background-color: #76e0ea;
@@ -197,7 +202,10 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 3.7fr 0.9fr 2.4fr;
     gap: 10px 10px;
-    grid-template-areas: "conteiner__productos__titulo" "conteiner__productos__imagen" "conteiner__productos__descripcion" "conteiner__productos__lista"; } }
+    grid-template-areas: "conteiner__productos__titulo"
+ "conteiner__productos__imagen"
+ "conteiner__productos__descripcion"
+ "conteiner__productos__lista"; } }
 
 @media only screen and (max-width: 400px) {
   .imagenesIndex {
@@ -212,7 +220,10 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
     gap: 5px 15px;
-    grid-template-areas: "fotoGula1" "fotoGula2" "fotoGula3" "fotoGula4"; }
+    grid-template-areas: "fotoGula1"
+ "fotoGula2"
+ "fotoGula3"
+ "fotoGula4"; }
   .subtitulo {
     padding: 10px;
     font-size: small; }
